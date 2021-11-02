@@ -1,0 +1,171 @@
+.heading {
+    font: normal normal 900 100px/120px Avenir;
+    letter-spacing: 0px;
+    color: #5861AE;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.small .heading {
+    font: normal normal 900 62px/80px Avenir;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 650px;
+}
+
+.left, .right {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.small {
+    width: 30%;
+}
+
+.large {
+    width: 70%;
+    padding-top: 0;
+}
+
+.right {
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+}
+
+.left > h2,.left > p,.left > button {
+    margin-left: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2:first-child {
+    margin-top: 50px;
+}
+
+.sub_heading {
+    font: normal normal normal 20px/26px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+}
+
+.small .sub_heading {
+    font: normal normal normal 20px/32px Avenir;
+}
+
+.no_account {
+    font: normal normal normal 16px/26px Avenir;
+    letter-spacing: 0.64px;
+    color: #565657;
+}
+
+button {
+    border: 2px solid #4552C1;
+    background-color: white;
+    border-radius: 4px;
+    opacity: 1;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #4552C1;
+    opacity: 1;
+    padding: 5px 20px;
+}
+
+.right p {
+    font: normal normal medium 32px/60px Avenir;
+    letter-spacing: 1.28px;
+    color: #4552C1;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+input {
+    width: 100%;
+    background-color: transparent;
+    padding:10px 5px;
+    font: normal normal normal 17px/27px Open Sans;
+    border: none;
+    margin: 20px 20px 20px 0;
+    border-bottom: 1px solid #989898;
+    display: block;
+}
+
+.large input {
+    width: 46%;
+    display: inline-block;
+}
+
+.large form {
+    margin: 50px auto;
+    width: 70%;
+}
+
+input:focus {
+    outline: none;
+}
+
+form {
+    width: 60%;
+    margin: 100px auto
+}
+
+.refer_banner {
+    background: #F8F9FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 6px #0000000B;
+    opacity: 1;
+    padding: 10px 0 5px 0;
+    border-top: 2px solid #5861AE;
+}
+
+.refer_banner > h3 {
+    text-align: center;
+    margin: 0;
+    font: normal normal 600 24px/26px Open Sans;
+    letter-spacing: 0.96px;
+    color: #5861AE;
+    opacity: 1;
+}
+
+.refer_banner > p {
+    font: italic normal normal 10px/26px Open Sans;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #3D3D43;
+    opacity: 1;
+}
+
+.forgot_password {
+    font: normal normal medium 16px/26px Avenir;
+    text-align: right;
+    letter-spacing: 0.64px;
+    color: #4552C1;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.right button {
+    border-color: #9098db;
+    color: white;
+    background: #9098db 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    padding: 10px;
+    width: 150px;
+    display: block;
+    margin: 50px auto;
+}
+
+.boundry {
+    height: 200px;
+    float: left;
+    width: 2px;
+    margin-top: 100px;
+    background: #5861AE 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 6px #0000000B;
+    opacity: 0.5;
+}
+
+.large .boundry {
+    margin-top: 200px;
+}

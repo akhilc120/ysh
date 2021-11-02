@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+    font: normal normal medium 18px/24px Avenir;
+    letter-spacing: 0.18px;
+    text-align: left;
+    color: #182838;
+    opacity: 1;
+    padding: 20px 100px;
+}
+
+footer {
+    height: 200px;
+    background: transparent url('./Footer.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 40px;
+    background-size: contain;
+}
+
+tr {
+    height: 50px;
+}

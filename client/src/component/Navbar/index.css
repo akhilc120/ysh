@@ -1,0 +1,40 @@
+.topnav {
+    height: 60px;
+    padding: 30px 0 0 100px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 48px #0000000F;
+    opacity: 1;
+}
+
+.nav_link {
+    display: inline-block;
+    height: 100%;
+    text-align: left;
+    font: normal normal 900 20px/27px Avenir;
+    letter-spacing: 1.8px;
+    color: #5861AE;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: auto 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav_link_sec {
+    float: right;
+    height: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.nav_link_sec a {
+    display: inline-block;
+    margin: auto 10px;
+    text-align: center;
+    font: normal normal normal 14px/19px Avenir;
+    letter-spacing: 1.05px;
+    color: #565657;
+    text-transform: capitalize;
+}
