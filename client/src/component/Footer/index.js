@@ -6,12 +6,14 @@ function Footer() {
         <footer>
             <table>
                 <thead>
-                    <th>About Us</th>
-                    <th>Home</th>
-                    <th>Pricing</th>
-                    <th>Career</th>
-                    <th>Contact</th>
-                    <th>Social Media</th>
+                    <tr>
+                        <th>About Us</th>
+                        <th>Home</th>
+                        <th>Pricing</th>
+                        <th>Career</th>
+                        <th>Contact</th>
+                        <th>Social Media</th>
+                    </tr>
                 </thead>
                 <tbody>
                     <tr>
